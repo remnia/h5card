@@ -1,0 +1,315 @@
+#fullpage .section {
+  width: 6.4em;
+  height: 10.08em;
+  margin: 0 auto; }
+
+.dizi {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+.background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+  .background img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+
+.gold-border {
+  animation-duration: 3s;
+  animation-delay: 1s;
+  width: 6.2rem;
+  height: 9.9rem;
+  position: absolute;
+  left: 0.0966667rem;
+  top: 0.1rem; }
+  .gold-border img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+
+.yuanxiao-img {
+  animation-duration: 3s;
+  animation-delay: 1s;
+  width: 2.82rem;
+  height: 5.16rem;
+  position: absolute;
+  left: 3.25334rem;
+  top: 0.346666rem; }
+  .yuanxiao-img img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+
+.yx-english {
+  animation-duration: 3s;
+  animation-delay: 1s;
+  width: 2rem;
+  height: 0.42rem;
+  position: absolute;
+  left: 3.94666rem;
+  top: 0.753334rem; }
+  .yx-english img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+
+.fifteen {
+  animation-duration: 3s;
+  animation-delay: 1s;
+  width: 1.32rem;
+  height: 1.08rem;
+  position: absolute;
+  left: 4.65334rem;
+  top: 1.406666rem; }
+  .fifteen img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+
+.cloud {
+  animation-duration: 3s;
+  animation-delay: 1s;
+  width: 1.62rem;
+  height: 0.9rem;
+  position: absolute;
+  left: 4.57334rem;
+  top: 7.7rem; }
+  .cloud img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+
+.big-flower {
+  animation-duration: 3s;
+  animation-delay: 1s;
+  width: 0.7rem;
+  height: 0.72rem;
+  position: absolute;
+  left: 4.03334rem;
+  top: 8.62666rem; }
+  .big-flower img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+
+.small-flower {
+  animation-duration: 3s;
+  animation-delay: 1s;
+  width: 0.48rem;
+  height: 0.48rem;
+  position: absolute;
+  left: 5.26rem;
+  top: 6.94rem; }
+  .small-flower img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+
+.bird {
+  animation-duration: 3s;
+  animation-delay: 1s;
+  width: 3.12rem;
+  height: 3.32rem;
+  position: absolute;
+  left: -0.1rem;
+  top: 1.253334rem; }
+  .bird img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+
+.date {
+  animation-duration: 3s;
+  animation-delay: 1s;
+  width: 0.34rem;
+  height: 1.62rem;
+  left: 5.6144rem;
+  top: 2.75666rem;
+  position: absolute; }
+  .date img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+
+.nongli {
+  animation-duration: 3s;
+  animation-delay: 1s;
+  width: 1.12rem;
+  height: 0.88rem;
+  left: 0.5rem;
+  top: 5.23944rem;
+  position: absolute; }
+  .nongli img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+
+.poem {
+  animation-duration: 3s;
+  animation-delay: 1s;
+  left: 0.526666rem;
+  top: 6.54678rem;
+  width: 3.72rem;
+  height: 1.8rem;
+  position: absolute; }
+  .poem .poem-r {
+    position: relative;
+    width: 100%;
+    height: 100%; }
+    .poem .poem-r .poem-one {
+      width: 2.22rem;
+      height: 0.5rem;
+      position: absolute;
+      left: 0rem;
+      top: 0rem; }
+      .poem .poem-r .poem-one img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%; }
+    .poem .poem-r .poem-onetext {
+      width: 180px;
+      height: auto;
+      left: 0.1133334rem;
+      position: absolute;
+      top: 0.1132292rem;
+      transform-origin: left top 0px;
+      transform: scale(1); }
+      .poem .poem-r .poem-onetext .poem-onetext-r {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden; }
+        .poem .poem-r .poem-onetext .poem-onetext-r .text-one {
+          opacity: 1;
+          border-style: solid;
+          border-width: 0px;
+          border-color: black;
+          color: #666666;
+          font-size: 12px;
+          font-family: FZYTJW_1133135564;
+          font-style: normal;
+          font-weight: normal;
+          text-align: left;
+          text-decoration: none;
+          line-height: 16px;
+          letter-spacing: 0px;
+          border-radius: 0px;
+          background-color: transparent;
+          overflow: hidden;
+          color: blanchedalmond; }
+    .poem .poem-r .poem-two {
+      width: 2.22rem;
+      height: 0.5rem;
+      position: absolute;
+      left: 0rem;
+      top: 0.64rem; }
+      .poem .poem-r .poem-two img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%; }
+    .poem .poem-r .poem-twotext {
+      width: 180px;
+      height: auto;
+      left: 0.1133334rem;
+      position: absolute;
+      top: 0.75323rem;
+      transform-origin: left top 0px;
+      transform: scale(1); }
+      .poem .poem-r .poem-twotext .poem-twotext-r {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden; }
+        .poem .poem-r .poem-twotext .poem-twotext-r .text-two {
+          opacity: 1;
+          border-style: solid;
+          border-width: 0px;
+          border-color: black;
+          color: #666666;
+          font-size: 12px;
+          font-family: FZYTJW_1133135564;
+          font-style: normal;
+          font-weight: normal;
+          text-align: left;
+          text-decoration: none;
+          line-height: 16px;
+          letter-spacing: 0px;
+          border-radius: 0px;
+          background-color: transparent;
+          overflow: hidden;
+          color: blanchedalmond; }
+    .poem .poem-r .poem-three {
+      width: 2.22rem;
+      height: 0.5rem;
+      position: absolute;
+      left: 0rem;
+      top: 1.3rem; }
+      .poem .poem-r .poem-three img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%; }
+    .poem .poem-r .poem-threetext {
+      width: 180px;
+      height: auto;
+      left: 0.1133334rem;
+      position: absolute;
+      top: 1.41323rem;
+      transform-origin: left top 0px;
+      transform: scale(1); }
+      .poem .poem-r .poem-threetext .poem-threetext-r {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden; }
+        .poem .poem-r .poem-threetext .poem-threetext-r .text-three {
+          opacity: 1;
+          border-style: solid;
+          border-width: 0px;
+          border-color: black;
+          color: #666666;
+          font-size: 12px;
+          font-family: FZYTJW_1133135564;
+          font-style: normal;
+          font-weight: normal;
+          text-align: left;
+          text-decoration: none;
+          line-height: 16px;
+          letter-spacing: 0px;
+          border-radius: 0px;
+          background-color: transparent;
+          overflow: hidden;
+          color: blanchedalmond; }
+
+/*# sourceMappingURL=index.css.map */

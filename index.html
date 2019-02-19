@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="css/fullpage.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/swiper.min.css" />
+		<script type="text/javascript" src="./js/rem.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/animate.css" />
+		<title>动画</title>
+	</head>
+
+	<body>
+
+		<div id="fullpage">
+			<div class="section">
+				<!--背景-->
+				<div class="dizi">
+					<div class="background">
+						<img src="img/background.png" />
+
+					</div>
+					<!--金色边框-->
+					<div class="animated gold-border zoomIn">
+						<img src="img/border.png" />
+
+					</div>
+					<!--元宵底字-->
+					<div class="animated yuanxiao-img fadeInDownBig">
+						<img src="img/yuanxiao.png" />
+					</div>
+					<!--元宵英文-->
+					<div class="animated yx-english fadeInLeft">
+						<img src="img/english-head.png" />
+					</div>
+					<!--15数字-->
+					<div class="animated fifteen zoomIn">
+						<img src="img/15.png" />
+
+					</div>
+					<!--云-->
+					<div class="animated cloud bounceInRight">
+						<img src="img/cloud.png" />
+					</div>
+					<!--大花-->
+					<div class="animated big-flower rotateIn">
+						<img src="img/big.png" />
+					</div>
+					<!--小花-->
+					<div class="animated small-flower rotateIn">
+						<img src="img/small.png" />
+					</div>
+					<!--鸟-->
+					<div class="animated bird rollIn">
+						<img src="img/bird.png" />
+					</div>
+					<!--日期-->
+					<div class="animated date fadeInUp">
+						<img src="img/20190219.png" />
+					</div>
+					<!--农历-->
+					<div class="animated nongli rotateIn">
+						<img src="img/0115.png" />
+					</div>
+					<!--诗-->
+					<div class="animated poem bounceInUp">
+						<div class="poem-r">
+							<!--背景1-->
+							<div class="poem-one">
+								<img src="img/darkred.png" />
+							</div>
+							<!--字体1-->
+							<div class="poem-onetext">
+								<div class="poem-onetext-r">
+									<div class="text-one">
+										正月十五月圆圆
+									</div>
+								</div>
+							</div>
+							<!--背景2-->
+							<div class="poem-two">
+								<img src="img/darkred.png" />
+							</div>
+							<!--字体2-->
+							<div class="poem-twotext">
+								<div class="poem-twotext-r">
+									<div class="text-two">
+										万家灯火不夜天
+									</div>
+								</div>
+							</div>
+							<!--背景3-->
+							<div class="poem-three">
+								<img src="img/darkred.png" />
+							</div>
+							<!--字体3-->
+							<div class="poem-threetext">
+								<div class="poem-threetext-r">
+									<div class="text-three">
+										家家户户乐翻天
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="section">Some section</div>
+			<div class="section">Some section</div>
+			<div class="section">Some section</div>
+		</div>
+		<script type="text/javascript">
+			new fullpage('#fullpage', {
+				//options here
+				autoScrolling: true,
+				scrollHorizontally: true
+			});
+
+			//methods
+			fullpage_api.setAllowScrolling(false);
+		</script>
+	</body>
+
+	<script>
+	</script>
+	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="js/fullpage.min.js"></script>
+	<script type="text/javascript" src="js/swiper.min.js"></script>
+
+</html>

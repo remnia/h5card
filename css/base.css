@@ -1,0 +1,18 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-style: normal;
+    font-style: normal;
+}
+
+ul,li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+
+.root {
+    /*max-width: 640px;*/
+    margin: 0 auto;
+}
